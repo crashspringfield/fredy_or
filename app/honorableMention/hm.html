@@ -1,0 +1,13 @@
+<!-- <div>
+  <div ng-repeat="pic in pics">
+    <img ng-src={{pic.url}} style="height: 300px; width: 300px;" /><br/><br/> -->
+    <!-- <img ng-src={{pic.url}} class="img-responsive" /><br> -->
+  <!-- </div>
+</div> -->
+
+<!-- make it look like tmblur -->
+<div class="bricklayer" ng-cloak>
+<div bricklayer-prepend ng-repeat="pic in pics" ng-cloak>
+  <img ng-src={{pic.url}} />
+</div>
+</div>

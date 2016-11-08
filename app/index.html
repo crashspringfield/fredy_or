@@ -1,0 +1,58 @@
+<html ng-app="app">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fredy or.....</title>
+
+    <!-- <script src="/bower_components/jquery/dist/jquery.js"></script> -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bricklayer/dist/bricklayer.min.css">
+    <link rel="stylesheet" href="./app/css/style.css"/>
+
+  </head>
+
+  <body>
+
+    <header>
+    <nav class="navbar navbar-fixed-top">
+     <div class="container">
+       <div id="navbar">
+         <ul class="nav navbar-nav">
+           <li><button type="button" class="btn btn-default navbar-btn" ui-sref="compare">Compare </button></li>
+           <li><button type="button" class="btn btn-default navbar-btn" ui-sref="honorableMention">Honorable Mention </button></li>
+           <li><button type="button" class="btn btn-default navbar-btn" ui-sref="winners">Hall of Fame </button></li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+ </header>
+
+ <br><br><br>
+
+<!-- Angular views -->
+   <div class=container>
+    <div ui-view></div>
+  </div>
+
+<!-- crash springfield
+All Copyrights Are Bogus -->
+  </body>
+    <!-- libraries -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/bower_components/ng-file-upload/ng-file-upload.min.js"></script>
+    <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/bricklayer/dist/bricklayer.min.js"></script>
+    <script src="bower_components/angular-bricklayer/dist/angular-bricklayer.min.js"></script>
+
+    <!-- app -->
+    <script src="app/app.js"></script>
+    <!-- controllers -->
+    <script src="./app/compare/compare-controller.js"></script>
+    <script src="./app/honorableMention/hm-controller.js"></script>
+    <script src="./app/results/results-controller.js"></script>
+    <script src="./app/winners/winners-controller.js"></script>
+
+</html>
