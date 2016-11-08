@@ -1,5 +1,5 @@
 (function(window, angular, undefined){
-  angular.module('app', ['ui.router', 'ngFileUpload', 'ngAnimate', 'jtt_bricklayer']);
+  angular.module('app', ['ui.router', 'ngFileUpload', 'jtt_bricklayer']);
 
   angular.module('app').config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
       $urlRouterProvider.otherwise('/');
