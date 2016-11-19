@@ -1,0 +1,18 @@
+<div class="text-center"><br/>
+  <!-- Show this for 3 seconds -->
+    <div ng-if="calculating" class="container">
+      <h3>Please be patient...</h3><br>
+      <div class="text-center">
+        <span class="glyphicon glyphicon-refresh gly-spin"></span><br/>
+      </div>
+      <h3>Our state of the art cuteness algorithm is hard at work</h3>
+    </div>
+    <!-- Then show this -->
+    <div ng-if="results" class="containter">
+      <h3>Fredy is the winner!!!</h3>
+      <p>Don't feel bad--he's quite the looker.</p>
+      <p>Head on over to our <a ui-sref="honorableMention">honorable mention</a> to see if your pet made it. And of course,
+        feel free to check out our <a ui-sref="winners">winner's gallery</a>.<p>
+    </div>
+
+</div>
