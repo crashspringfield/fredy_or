@@ -19,7 +19,8 @@
         'http://res.cloudinary.com/dotkbdwdw/image/upload/v1478619071/fmipjk2rhlaqtblrfsgm.jpg',
         'http://res.cloudinary.com/dotkbdwdw/image/upload/v1478564853/yr99kezn43xg13seark2.jpg',
         'http://res.cloudinary.com/dotkbdwdw/image/upload/v1478543315/m6q1xv8mv0wn9ofsdcx9.jpg',
-        'http://res.cloudinary.com/dotkbdwdw/image/upload/v1478538817/bbzopcsysrckgh2wfilf.jpg'
+        'http://res.cloudinary.com/dotkbdwdw/image/upload/v1478538817/bbzopcsysrckgh2wfilf.jpg',
+        'http://res.cloudinary.com/dotkbdwdw/image/upload/v1479512267/eaahau37hdom34jtzaft.png'
       ]
       // ===================================================================
 
