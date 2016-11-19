@@ -44,18 +44,19 @@
 
       // Upload competitor
       $scope.upload = function() {
-        Upload.upload({
-          url: '/compare',
-          data: {
-            file: $scope.file,
-          }
-        }).then(function(response){
-          console.log('success');
-          $location.path('/results');
-        }, function(error) {
-          console.error(error);
-          $scope.error = error;
-        });
+//         Upload.upload({
+//           url: '/compare',
+//           data: {
+//             file: $scope.file,
+//           }
+//         }).then(function(response){
+//           console.log('success');
+//           $location.path('/results');
+//         }, function(error) {
+//           console.error(error);
+//           $scope.error = error;
+//         });
+        $location.path('/results');
       };
 
     }])
